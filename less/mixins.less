@@ -1,1 +1,15 @@
 // Mixins in here
+
+.display-flex (@fd, @j, @a) {
+    display: flex;
+    flex-direction: @fd;
+    justify-content: @j;
+    align-items: @a;
+}
+
+.buttons (@b, @bc, @c @r) {
+    border: @b;
+    background-color: @bc;
+    color: @c;
+    border-radius: @r;
+}
